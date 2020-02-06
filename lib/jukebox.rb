@@ -54,7 +54,7 @@ def run(songs)
       users_name=gets.strip
   puts say_hello(users_name)
   while true
-  puts "Please enter a command:"
+  puts "I accep the following commands:"
     user_input = gets.strip
       if user_input == 'exit'
         exit_jukebox()
