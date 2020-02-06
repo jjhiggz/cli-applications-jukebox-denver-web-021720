@@ -25,7 +25,7 @@ end
 
 def play(songs)
 
-#puts "Please enter a song name or number:"
+puts "Please enter a song name or number:"
 a=gets.strip
 ###binding.pry
 if a.to_i>=1 && a.to_i<=songs.length
