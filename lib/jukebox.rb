@@ -44,20 +44,21 @@ end
 
 def exit_jukebox()
   puts "Goodbye"
+
 end
 
 def run(songs)
 #puts "Please enter a command:"
   #users_name = gets.strip
-  puts "Please enter your name:"
-      users_name=gets.strip
-  puts say_hello(users_name)
+#  puts "Please enter your name:"
+#      users_name=gets.strip
+#  puts say_hello(users_name)
   while true
   puts "Please enter a command:"
     user_input = gets.strip
       if user_input == 'exit'
         exit_jukebox()
-        #break
+        break
       elsif user_input=='help'
         help()
       elsif user_input=='list'
